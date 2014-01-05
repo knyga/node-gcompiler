@@ -1,5 +1,5 @@
 ##Node-gcompiler
-Makes compilation of multiple js scripts with google closure compiler application.
+Makes compilation of multiple js scripts with *google closure compiler* application.
 Requires *nodejs* and *java* installed.
 
 ###To run
@@ -13,4 +13,4 @@ You can edit settings.json:
 `level` - level of optimization (WHITESPACE_ONLY, SIMPLE_OPTIMIZATIONS, ADVANCED_OPTIMIZATIONS)
 
 ###Copyright
-Oleksandr Knyga
+Oleksandr Knyga, 2014
