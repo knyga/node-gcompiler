@@ -21,9 +21,17 @@ Node-gcompiler can use information about JavaScript file to build right compilin
 
 | Tag        | Examples           | Description  |
 | ------------- |:-------------:| -----:|
-| @depends     | /**\n * Describe dependencies * @depends {jquery-2.0.3.min}\n */ | $1600 |
-| @compile | are neat      |    $1 |
-| @name      | centered      |   $12 |
+| @depends     | @depends {jquery-2.0.3.min} | Specifies file dependency of other files |
+| @compile | @compile {true}      |    If false than file will be ignored at compilation time |
+| @name      | @compile {jquery}     |   Alternative name of file |
+
+`/**
+ * Node-gcompiler annotation
+ * @name {somescript}
+ * @compile {true}
+ * @depends {jquery}
+ * @depends {somescript}
+ */`
 
 ###Copyright
 Oleksandr Knyga, 2014
