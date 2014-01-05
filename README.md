@@ -8,8 +8,6 @@ Requires *nodejs* and *java*.
 `node gcompile`
 
 ###Settings.json
-You can edit settings.json:
-
 `basedir` - directory with js files;
 
 `output` - output file name;
