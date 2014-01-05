@@ -25,13 +25,15 @@ Node-gcompiler can use information about JavaScript file to build right compilin
 | @compile | @compile {true}      |    If false than file will be ignored at compilation time |
 | @name      | @compile {jquery}     |   Alternative name of file |
 
-`/**
+```javascript
+/**
  * Node-gcompiler annotation
  * @name {somescript}
  * @compile {true}
  * @depends {jquery}
  * @depends {somescript}
- */`
+ */
+```
 
 ###Copyright
 Oleksandr Knyga, 2014
