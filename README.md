@@ -1,5 +1,5 @@
 ##Node-gcompiler
-Makes compilation of multiple js scripts with *google closure compiler* application.
+Makes compilation of multiple JavaScript files with *google closure compiler* application.
 
 ###Requirements
 Requires *nodejs* and *java*.
@@ -8,13 +8,25 @@ Requires *nodejs* and *java*.
 `node gcompile`
 
 ###Settings.json
-`basedir` - directory with js files;
+`basedir` - directory with JavaScript files;
 
-`output` - output file name;
+`output` - output JavaScript file name;
 
 `compiler` - path to google closure compiler;
 
 `level` - level of optimization (WHITESPACE_ONLY, SIMPLE_OPTIMIZATIONS, ADVANCED_OPTIMIZATIONS).
+
+###Annotating JavaScript
+Node-gcompiler can use information about JavaScript file to build right compiling chain.
+
+| Tag        | Examples           | Description  |
+| ------------- |:-------------:| -----:|
+| @depends     | /**
+ * Describe dependencies
+ * @depends {jquery-2.0.3.min}
+ */ | $1600 |
+| @compile | are neat      |    $1 |
+| @name      | centered      |   $12 |
 
 ###Copyright
 Oleksandr Knyga, 2014
