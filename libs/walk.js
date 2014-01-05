@@ -1,4 +1,5 @@
-var fs = require('fs');
+var fs = require('fs'),
+    readInfo = require('./readinfo');
 
 var walk = function(dir, search, done) {
   var results = [],
@@ -46,7 +47,7 @@ var walk = function(dir, search, done) {
         } else {
 
           if(parrern.test(file)) {
-            results.push(file);
+            results.push(readInfo(file));
           }
 
           if (!--pending) {
