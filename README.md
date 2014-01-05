@@ -1,7 +1,7 @@
 ##Node-gcompiler
 Makes compilation of multiple js scripts with *google closure compiler* application.
 
-№Requirements
+###Requirements
 Requires *nodejs* and *java*.
 
 ###How to run
