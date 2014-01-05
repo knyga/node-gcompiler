@@ -16,7 +16,7 @@ You can edit settings.json:
 
 `compiler` - path to google closure compiler;
 
-`level` - level of optimization (WHITESPACE_ONLY, SIMPLE_OPTIMIZATIONS, ADVANCED_OPTIMIZATIONS);
+`level` - level of optimization (WHITESPACE_ONLY, SIMPLE_OPTIMIZATIONS, ADVANCED_OPTIMIZATIONS).
 
 ###Copyright
 Oleksandr Knyga, 2014
