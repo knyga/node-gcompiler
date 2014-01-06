@@ -16,7 +16,7 @@ Requires *nodejs* and *java*.
 
 `level` - level of optimization (WHITESPACE_ONLY, SIMPLE_OPTIMIZATIONS, ADVANCED_OPTIMIZATIONS).
 
-###Annotating JavaScript
+###Annotating JavaScript files
 Node-gcompiler can use information about JavaScript file to build right compiling chain.
 
 | Tag        | Example           | Description  |
