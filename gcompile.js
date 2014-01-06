@@ -5,6 +5,11 @@ var exec = require('child_process').exec,
 
 walk(settings.basedir, '*.js', function(err, list) {
 
+	if(list.length < 1) {
+		console.log('no *.js files to compile in ' + settings.basedir);
+		return;
+	}
+
 	var compCount = 0;
 
 	var command = 'java -jar ' +

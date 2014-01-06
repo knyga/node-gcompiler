@@ -23,7 +23,7 @@ var readInfo = function(file) {
 
 	var resCompile = CompilePattern.exec(data);
 	if(resCompile && resCompile.length > 0) {
-		isCompile = resCompile[1] == "false" ? false : true;
+		isCompile = resCompile[1].toLowerCase() == "false" ? false : true;
 	}
 
 	var dir = getDirectory(file);
