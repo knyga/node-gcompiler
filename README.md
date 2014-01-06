@@ -20,7 +20,7 @@ Requires *nodejs* and *java*.
 Node-gcompiler can use information about JavaScript file to build right compiling chain.
 
 | Tag        | Examples           | Description  |
-| ------------- |:-------------:| -----|
+| ------------- |-------------| -----|
 | @depends     | @depends {jquery-2.0.3.min} | Specifies file dependency of other files. |
 | @compile | @compile {true}      |    If false than file will be ignored at compilation time. By default is *true*. |
 | @name      | @compile {jquery}     |   Alternative name of file. |
