@@ -1,5 +1,5 @@
 {
-	"basedir": "./dir",
+	"basedir": "./app",
 	"output": "./output/min.output.js",
 	"compiler": "./libs/compiler.jar",
 	"level": "SIMPLE_OPTIMIZATIONS"
